@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(28, 28, 59);
+  overflow: hidden;
+}
+
+/* buttons */
+
+table {
+  margin: 6% auto;
+  border-spacing: 20px;
+}
+
+.buttons {
+  width: 200px;
+  height: 200px;
+  border-radius: 4%;
+}
+.buttons:hover {
+  position: relative;
+  bottom: 2px;
+}
+#red {
+  background-color: rgb(255, 78, 78);
+}
+
+#blue {
+  background-color: rgb(78, 90, 255);
+}
+
+#green {
+  background-color: rgb(73, 185, 79);
+}
+
+#yellow {
+  background-color: rgb(240, 216, 78);
+}
+
+/* level text */
+
+h1 {
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  font-size: 50px;
+  color: white !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+em {
+  font-weight: 800;
+}
